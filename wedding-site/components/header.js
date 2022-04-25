@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import styles from '../styles/Header.module.scss'
 
 const header = () => {
@@ -8,7 +9,7 @@ const header = () => {
             <ul className={styles.nav}>
                 <li className={styles.list__items}>directions</li>
                 <li className={styles.list__items}>faq</li>
-                <li className={styles.list__items}>about</li>
+                <Link href='/'><li className={styles.list__items}>home</li></Link>
             </ul>
         </div>
     </>
