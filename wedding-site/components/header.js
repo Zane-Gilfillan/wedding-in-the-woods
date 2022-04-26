@@ -7,8 +7,8 @@ const header = () => {
     <>
         <div className={styles.header}>
             <ul className={styles.nav}>
-                <li className={styles.list__items}>directions</li>
-                <li className={styles.list__items}>faq</li>
+                <Link href='/directions'><li className={styles.list__items}>directions</li></Link>
+                <Link href='/faq'><li className={styles.list__items}>faq</li></Link>
                 <Link href='/'><li className={styles.list__items}>home</li></Link>
             </ul>
         </div>

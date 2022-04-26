@@ -1,0 +1,27 @@
+.directions__container {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    .map__container {
+        width: 100%;
+        margin: 2rem;
+    
+        .map {
+            width: 100%;
+        }
+    }
+
+    .text__container {
+        font-family: 'Courier New', Courier, monospace;
+        margin: 1rem;
+        font-size: 2.1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
