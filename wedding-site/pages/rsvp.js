@@ -57,7 +57,7 @@ const rsvp = () => {
             </div>
             <div className={styles.list__holder}>
                 <div className="note__container">
-                    <input className={styles.note__input} id='noteinput' placeholder='leave your rsvp here ❤️' type="text" />
+                    <input className={styles.note__input} id='noteinput' placeholder='lets party ❤️' type="text" />
                 </div>
                 <div className={styles.btn__container}>
                     <button className={styles.btn} onClick={() => handleClick()}>rsvp</button>

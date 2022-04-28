@@ -1,0 +1,40 @@
+.image__holder {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .img__main {
+        margin: 1rem;
+        width: 150%;
+        position: relative;
+        top: 10rem;
+
+        .img {
+            border-radius: 2%;
+        }
+        
+    }
+
+    .text__holder {
+        font-family: 'Courier New', Courier, monospace;
+        margin: 1rem;
+        font-size: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        .text {
+            letter-spacing: .5rem;
+            line-height: 4.5rem;
+
+            p {
+                font-size: 1.8rem;
+                line-height: 2rem;
+                text-align: center;
+            }
+        }
+    }
+
+}

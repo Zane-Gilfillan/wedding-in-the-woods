@@ -9,10 +9,10 @@ const showcase = () => {
     <>
         <div className={styles.image__holder}>
             <div className={styles.img__main}>
-                <Image src= {pic} alt='cabin in the woods' />
+                <Image className={styles.img} src= {pic} alt='cabin in the woods' />
             </div>
             <div className={styles.text__holder}>
-                <div className={styles.text}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio aliquam ipsa, deleniti voluptatibus quae adipisci laudantium earum odio inventore perferendis fuga. Placeat porro, assumenda accusamus neque nisi provident eveniet repudiandae.</div>
+                <div className={styles.text}>nice job! if you're seeing this you opened your letter and followed the instructions correctly. we're getting married and we're ready to party. click the rsvp button to leave your name and something cute. see ya there 🧡</div>
                 <div className={styles.button__container}>
                 <Link href='/rsvp'><div className={styles.btn}>rsvp</div></Link>
                 </div>

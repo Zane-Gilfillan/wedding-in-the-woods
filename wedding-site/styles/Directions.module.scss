@@ -10,6 +10,10 @@
     
         .map {
             width: 100%;
+            border: none;
+            border-radius: 2%;
+            -webkit-box-shadow: 5px 5px 12px 5px rgba(0,0,0,0.32); 
+            box-shadow: 5px 5px 12px 5px rgba(0,0,0,0.32);
         }
     }
 

@@ -13,14 +13,12 @@ const directions = () => {
             <div className={styles.text__container}>
                 <h2>friends in chicago:</h2>
                 <p> 🏕️ our cabin is directly off of HW51</p>
-                <p> 🏕️ you can click the map to add your address</p>
+                <p> 📍 you can click the map to add your address</p>
                 <h2>friends not in chicago:</h2>
-                <p> 🏕️ ironwood has an airport!</p>
-                <p> 🏕️ you can fly direct from LA or NY</p>
+                <p> 🛫 ironwood has an airport!</p>
+                <p> 🌆 🗽 you can fly direct from LA or NY</p>
             </div>
         </div>
-        
-        
     </>
   )
 }
