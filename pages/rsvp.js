@@ -17,7 +17,7 @@ const randomEmoji = (emoji) => {
 
 console.log(randomEmoji(emoji));
 
-const rsvp = () => {
+const Rsvp = () => {
 
     const initialData =[{ text: ''}]
     const [data, setData] = useState(initialData);
@@ -72,4 +72,4 @@ const rsvp = () => {
   )
 }
 
-export default rsvp
+export default Rsvp
