@@ -7,7 +7,7 @@ import invite from '../public/invite.jpg';
 import styles from '../styles/Rsvp.module.scss';
 import { useEffect } from 'react';
 
-const Notes = props => props.data.map(note =>  <div suppressHydrationWarning={true}>{note.text} {randomEmoji(emoji)}</div>);
+const Notes = props => props.data.map(note => <div key={''} suppressHydrationWarning={true}>{note.text} {randomEmoji(emoji)}</div>);
 const emoji = ['🐺', '🦊','🐴', '🦌', '🐄', '🐂', '🐿️', '🐓', '🦆', '🐝', '🐞', '🐐'];
 
 
