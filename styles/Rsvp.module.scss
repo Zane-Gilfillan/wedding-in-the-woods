@@ -87,3 +87,40 @@
 	5% {-webkit-transform: rotate(0deg);}
 	100% {-webkit-transform: rotate(0deg);}
 }
+
+$breakpoint-mobile: 390px;
+@media (min-width: $breakpoint-mobile) {
+
+    .image__holder {
+        display: grid;
+        grid-template-columns: 1;
+
+        .img__main {
+            margin: .5rem;
+        }
+
+        .list__holder {
+            
+            .btn {
+                -webkit-box-shadow: 5px 15px 14px 3px rgba(0,0,0,0.56); 
+                box-shadow: 5px 15px 14px 3px rgba(0,0,0,0.56);
+            }
+        }
+    }
+
+    .rsvp__holder {
+
+        font-size: 1.5rem;
+        display: block;
+
+        .rsvp__notes {
+            text-align: left;
+            margin: 2rem;
+            padding: .5rem;
+            border: solid .1rem rgba(17, 5, 5, 0.5);
+            border-radius: 5px;
+            -webkit-box-shadow: 5px 8px 14px 3px rgba(0,0,0,0.56); 
+            box-shadow: 5px 8px 14px 3px rgba(0,0,0,0.56);    
+        }
+    }
+}

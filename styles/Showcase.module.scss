@@ -74,3 +74,51 @@
 	5% {-webkit-transform: rotate(0deg);}
 	100% {-webkit-transform: rotate(0deg);}
 }
+
+$breakpoint-mobile: 390px;
+@media (min-width: $breakpoint-mobile) {
+
+    .image__holder {
+        display: grid;
+        grid-template-columns: 1;
+
+        .img__main {
+            width: 100%;
+            margin: .5rem;
+
+            .img {
+                border-radius: 1%;
+            }
+        }
+
+        .text__holder {
+            
+            text-align: left;
+            font-size: 2rem;
+
+            .text{
+                letter-spacing: .1rem;
+                line-height: 2.5rem;
+            }
+        }
+    }
+
+    .button__container{
+
+        position: relative;
+        bottom: 3rem;
+
+        .btn{
+            text-align: center;
+            font-size: 3rem;
+            font-family: 'Courier New', Courier, monospace;
+            letter-spacing: .5rem;
+            margin-top: 5rem;
+            padding: .4rem;
+            border: rgb(0, 0, 0) solid .2rem;
+            border-radius: 5%;
+            width: 13rem;
+        }
+    }
+  
+}
