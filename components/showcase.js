@@ -14,7 +14,7 @@ const showcase = () => {
             <div className={styles.text__holder}>
                 <div className={styles.text}>nice job! if youre seeing this you opened your letter and followed the instructions correctly. we are getting married and ready to party. click the rsvp button to leave your name and something cute. see ya there 🧡</div>
                 <div className={styles.button__container}>
-                <Link href='/Rsvp'><div className={styles.btn}>rsvp</div></Link>
+                <Link href='/rsvp'><div className={styles.btn}>rsvp</div></Link>
                 </div>
             </div>
             
